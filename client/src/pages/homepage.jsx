@@ -2,23 +2,20 @@
 import './../app.css';
 
 function Homepage() {
-    const hero = (<div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img
-      src="https://images.pexels.com/photos/3075996/pexels-photo-3075996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      className="max-w-sm rounded-lg shadow-2xl"
-    />
-    <div>
-      <h1 className="text-3xl md:text-5xl font-bold">Unlock <span className="text-blue-700">
-        Million-Dollar
-      </span> Trade Opportunities Across 4 Continents</h1>
-      <p className="py-6">
-        Master the art of importing from China, Turkey, UK, Dubai & USA while exporting Africa's agricultural gold to hungry global markets.
-      </p>
-      <button className="btn btn-primary">Build Your Empire Today</button>
+    const hero = (<section class="py-24 flex items-center min-h-screen justify-center bg-white">
+  <div class="mx-auto max-w-[43rem]">
+    <div class="text-center">
+      <p class="text-lg font-medium leading-8 text-indigo-600/95">Introducing Design Data Platform</p>
+      <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-black">Unlock  <span className="text-blue-700">Million-Dollar</span> Trade Opportunities Across&nbsp; 4 Continents</h1>
+      <p class="mt-3 text-lg leading-relaxed text-slate-400">Specify helps you unify your brand identity by collecting, storing and distributing design tokens and assets — automatically.</p>
+    </div>
+
+    <div class="mt-6 flex items-center justify-center gap-4">
+      <a href="#" class="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700">Get started for free</a>
+      <a href="#" class="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50"> Request a demo </a>
     </div>
   </div>
-</div>)
+</section>)
     return ( 
         <>
         {hero}
